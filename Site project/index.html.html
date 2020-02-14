@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Emnet's Intro Site</title>
+	<link rel="stylesheet" type= "text/css" href = "styles/mysite.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme|Muli&display=swap" rel="stylesheet">
+</head>
+<body>
+		<h1 style="font-family:Acme; margin-left:2%;">Emnet Assefa Degafe</h1>
+		<div class = "header">
+ 					<p class ="zoom"><a href ="#about">About</p></a>
+ 					<p class ="zoom"><a href ="#blog">Interests</p></a>
+ 					<p class ="zoom"><a href ="#contact">Contact</p></a>
+		</div>
+		<div id ="about">
+					<a href="https://www.linkedin.com/in/emnet-assefa-8780b631/" target="_blank"><img class = "aboutme" src="images/30-1.jpg"></a>
+					<h2 class = "firsth2">Hi there, Emnet here!</h2>
+					<p class = "bio" style="font-size:16px">
+				 A journalist and communicator by training, I always wanted to try coding & web development.
+				 I finally decided to do it as a possible career path, so I signed up for this course. Can't wait to start and meet you all!!<br><br><br><strong> See you next week!</strong></p>
+		</div>
+					<hr class ="hr1">
+		<div id = "blog">
+					<h2> Interests</h2>
+					<ul>
+							<img class="icon" src="images/travel.png"<li>Traveling</li>
+							<img class="icon" src="images/camera.png"<li>Photography</li>
+							<img class="icon" src="images/friendship.png"<li>Making Friends</li>
+							<img class ="icon"src ="images/cook.png"<li>Cooking</li>
+
+					</ul>
+					<hr class ="hr2">
+		</div>
+		<div id = "contact">
+					<h2> contact </h2>
+							<form id = "myform">
+								<h3> Get in touch!</h3>
+									<label>Name: <input type="text" name="Name"placeholder="John Smith " required></label><br/>
+									<label>Email: <input type="email" name="Email" placeholder="johnsmith@mail.com "required></label><br/>
+									<label>Message: <input class="message" type="text" name ="Message" placeholder="  write something..." style="height:250px;width:450px;border-radius:6px" required></label><br/>
+									<button onclick="submitform()"> Submit </button>
+							</form>
+							<div class= "social"style="width:200px;height:70px;border:1px solid #C8976E">
+								<a href ="https://www.linkedin.com/in/emnet-assefa-8780b631/"><img class ="LinkedIn" src="images/linkedin.png"></a>
+								<a href ="https://www.facebook.com/emnet.assefa"><img class =" Facebook" src ="images/facebook.png"></a>
+								<a href ="https://www.instagram.com/emnet199/"><img class ="instagram" src = "images/instagram.png"></a>
+							</div>
+		</div>
+		<footer>
+				<img id="adventurer" onmouseover="moveRight()" onclick="stop()"src="images/adventurer.png"><h5 style="font-size:16px; margin-left:2%">Let the journey begain...</h5>
+		</footer>
+	<script src ="script/mysite.js"></script>
+</body>
+</html>
+<!--form needs url to store the data-->
